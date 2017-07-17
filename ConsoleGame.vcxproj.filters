@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\GameVariables">
+      <UniqueIdentifier>{627679aa-0cfb-4471-9ca2-47d0062dce7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\LevelVairables">
+      <UniqueIdentifier>{9580ce78-01fc-489a-b315-d70ac34b6c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GameEntities">
+      <UniqueIdentifier>{90ce36c4-8670-41e5-bd9e-6acab3b4f35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\EventHandler">
+      <UniqueIdentifier>{fc394d06-2a4b-48e9-b093-55bce3fc496e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Level">
+      <UniqueIdentifier>{d57bc08a-b9a4-4530-b0e5-0d61997380cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GameEntities">
+      <UniqueIdentifier>{588e68b6-69ad-4044-8785-35459fa56e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GameVariables">
+      <UniqueIdentifier>{a31cd240-ba65-43fb-8c80-cb8e0164462b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\LevelVariables">
+      <UniqueIdentifier>{25f7c4ee-344d-4bff-a914-1c949bcc3c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Level">
+      <UniqueIdentifier>{c70a0f90-789e-499e-bd66-875e6bb455d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnvObject.h">
+      <Filter>Headerdateien\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLivingObject.h">
+      <Filter>Headerdateien\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Headerdateien\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnvVariables.h">
+      <Filter>Headerdateien\GameVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Headerdateien\GameVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHealth.h">
+      <Filter>Headerdateien\GameVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelPosition.h">
+      <Filter>Headerdateien\LevelVairables</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerObject.h">
+      <Filter>Headerdateien\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="KeypressObserver.h">
+      <Filter>Headerdateien\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="KeypressSubject.h">
+      <Filter>Headerdateien\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="KeypressVariable.h">
+      <Filter>Headerdateien\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Headerdateien\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMovement.h">
+      <Filter>Headerdateien\LevelVairables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>Headerdateien\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleGame.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="KeypressSubject.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="KeypressObserver.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="KeypressVariable.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnvObject.cpp">
+      <Filter>Quelldateien\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLivingObject.cpp">
+      <Filter>Quelldateien\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayerObject.cpp">
+      <Filter>Quelldateien\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnvVariables.cpp">
+      <Filter>Quelldateien\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHealth.cpp">
+      <Filter>Quelldateien\GameVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Quelldateien\GameVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMovement.cpp">
+      <Filter>Quelldateien\LevelVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelPosition.cpp">
+      <Filter>Quelldateien\LevelVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Quelldateien\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColor.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Quelldateien\GameEntities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\sdlanim\sdlanim\sprite.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\sdlanim\sdlanim\grass.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
